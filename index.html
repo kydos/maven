@@ -6,11 +6,26 @@
 <body>
   <h1> Kydos Maven Repository </h1>
   <p>
-    To use this repository add to your build.sbt the following
+    To use this repository add to your <code>build.sbt</code> the following
     resolver:
-    <verbatim>
-      resolvers += "kydos-repo" at "http://kydos.githum.com/mvm-repo"
-    </verbatim>
+    </br>
+    <center>
+      <code>
+	resolvers += "kydos-repo" at "http://kydos.github.com/maven/snapshots"
+      </code>
+    </center>
+    </br>
+    As an example to add a dependency to <a href="http://kydos.github.com/escalier">escalier</a>
+    add the following to your <code>build.sbt</code>:
+    </br></br>
+    <center>
+      <code>
+	resolvers += "kydos-repo" at "http://kydos.github.com/maven/snapshots"
+      </code></br>
+      <code>
+	libraryDependencies += "net.icorsaro" % "escalier_2.9.2" % "0.6.0"
+      </code>
+    </center></br>
   </p>
 </body>
 </html>
