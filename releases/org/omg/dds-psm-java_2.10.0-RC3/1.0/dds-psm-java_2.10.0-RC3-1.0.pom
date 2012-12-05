@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.omg</groupId>
+    <artifactId>dds-psm-java_2.10.0-RC3</artifactId>
+    <packaging>jar</packaging>
+    <description>dds-psm-java</description>
+    <url>http://github/kydos/dds-psm-java</url>
+    <version>1.0</version>
+    <name>dds-psm-java</name>
+    <organization>
+        <name>org.omg</name>
+        <url>http://github/kydos/dds-psm-java</url>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.0-RC3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
